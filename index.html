@@ -1,110 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CampusConnect Proposal</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-
-    h1, h2 {
-      color: #004aad;
-    }
-
-    section {
-      margin-bottom: 25px;
-      background: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-
-    ul {
-      margin: 10px 0 0 25px;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #777;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tower jumper</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  h1, h2 {
+    color: #1a73e8;
+  }
+  section {
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  ul {
+    margin-left: 25px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+  }
+</style>
 </head>
 <body>
 
-  <h1>CampusConnect</h1>
-  <p><strong>Student Resource & Event Hub</strong></p>
+<h1>Tower jumper</h1>
+<p><strong>2D Browser-Based Jumping Game</strong></p>
 
-  <section>
-    <h2>Creator</h2>
-    <p>Kevin Cordova</p>
-  </section>
+<section>
+  <h2>Creator</h2>
+  <p>Kevin Cordova</p>
+</section>
 
-  <section>
-    <h2>Application Overview</h2>
-    <p>CampusConnect helps students find campus events, join clubs, and access helpful resources in one place. 
-       It’s designed to make it easier for students to stay connected and informed.</p>
-  </section>
+<section>
+  <h2>Application Overview</h2>
+  <p>
+    Platform Jumper is a simple 2D game where the player controls a character that jumps between platforms to reach higher levels.
+    The goal is to achieve the highest possible score without falling off the platforms. This game demonstrates basic game mechanics, 
+    player control, and interactive physics in a browser environment.
+  </p>
+</section>
 
-  <section>
-    <h2>Technology Overview</h2>
-    <ul>
-      <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
-      <li><strong>Libraries:</strong> Optional - Firebase or Chart.js</li>
-      <li><strong>Hosting:</strong> GitHub Pages</li>
-    </ul>
-  </section>
+<section>
+  <h2>Technology Overview</h2>
+  <ul>
+    <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Libraries:</strong> Optional - p5.js or Phaser.js for game physics</li>
+    <li><strong>Platforms:</strong> Browser-based (Windows, MacOS, Linux)</li>
+    <li><strong>Hosting:</strong> GitHub Pages</li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Proposal Last Updated</h2>
-    <p>November 2, 2025</p>
-  </section>
+<section>
+  <h2>Proposal Last Updated</h2>
+  <p>November 2, 2025</p>
+</section>
 
-  <section>
-    <h2>Feature List</h2>
-    <ul>
-      <li>View upcoming campus events</li>
-      <li>Search clubs by category</li>
-      <li>Responsive layout for mobile and desktop</li>
-    </ul>
-  </section>
+<section>
+  <h2>Feature List (Prioritized)</h2>
+  <ul>
+    <li>Character movement using arrow keys (left and right)</li>
+    <li>Jumping on platforms</li>
+    <li>Score counter based on height achieved</li>
+    <li>Platforms that randomly generate as the player ascends</li>
+    <li>Collision detection to prevent falling through platforms</li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Future Feature List</h2>
-    <ul>
-      <li>RSVP for events</li>
-      <li>Personalized dashboard</li>
-      <li>Campus map integration</li>
-    </ul>
-  </section>
+<section>
+  <h2>Future Feature List</h2>
+  <ul>
+    <li>Power-ups (double jump, speed boost)</li>
+    <li>Moving platforms</li>
+    <li>Background music and sound effects</li>
+    <li>High score leaderboard</li>
+    <li>Mobile-friendly controls</li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Basic Technical Features</h2>
-    <ul>
-      <li>HTML and CSS structure</li>
-      <li>Simple navigation and content sections</li>
-      <li>Responsive page design</li>
-    </ul>
-  </section>
+<section>
+  <h2>Basic Technical Features</h2>
+  <ul>
+    <li>HTML canvas for game display</li>
+    <li>CSS styling for player and platform visuals</li>
+    <li>JavaScript logic for movement, jumping, and platform generation</li>
+    <li>Simple collision detection</li>
+  </ul>
+</section>
 
-  <section>
-    <h2>Advanced Technical Features</h2>
-    <ul>
-      <li>Database connection (Firebase or Airtable)</li>
-      <li>Dynamic event listing using JavaScript</li>
-      <li>Dark/light mode toggle</li>
-    </ul>
-  </section>
+<section>
+  <h2>Advanced Technical Features</h2>
+  <ul>
+    <li>Smooth animations and physics calculations for realistic jumping</li>
+    <li>Dynamic difficulty: platforms get smaller or move faster as score increases</li>
+    <li>Sound and music integration using JavaScript Audio API</li>
+    <li>Persistent high scores using local storage or Firebase</li>
+    <li>Optional game library integration (Phaser.js) for advanced physics</li>
+  </ul>
+</section>
 
-  <footer>
-    <p>© 2025 CampusConnect | Created by Kevin Cordova</p>
-  </footer>
+<footer>
+  <p>© 2025 Platform Jumper | Created by Kevin Cordova</p>
+</footer>
+
+</body>
+</html>
+
 
 </body>
 </html>
